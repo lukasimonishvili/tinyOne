@@ -5,23 +5,33 @@
     <title>Tiny One</title>
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="SHORTCUT ICON" href="img/logo.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <div class="header__navigation flex-space-btw">
-                <div class="header__navigation__burger flex-space-btw">
+            <div class="header__navigation relative flex-space-btw">
+                <div id="burger" class="header__navigation__burger flex-space-btw">
                     <div class="header__navigation__burger__items"></div>
                     <div class="header__navigation__burger__items"></div>
                     <div class="header__navigation__burger__items"></div>
                 </div>
-                <a href="javascript:void(0)" class="header__navigation__logo flex-space-btw">
+                <a id="logo" href="javascript:void(0)" class="absolute header__navigation__logo flex-space-btw">
                     <img src="img/logo.png" alt="" class="header__navigation__logo__img">
                     <h1 class="header__navigation__logo__heading">tinyone</h1>
                 </a>
-                <div class="header__navigation__icons flex-space-btw">
+
+                <ul id="navList" class="absolute header__navigation__list flex-space-btw">
+                    <li class="header__navigation__list__items"><a href="#">Home</a></li>
+                    <li class="header__navigation__list__items"><a href="#">Contact</a></li>
+                    <li class="header__navigation__list__items"><a href="#">About us</a></li>
+                    <li class="header__navigation__list__items"><a href="#">News</a></li>
+                    <i id="navClose" class="fas fa-times header__navigation__list__icon"></i>
+                </ul>
+
+                <div class="absolute header__navigation__icons flex-space-btw">
                     <img src="img/facebook.png" alt="" class="header__navigation__icons__items">
                     <img src="img/twitter.png" alt="" class="header__navigation__icons__items">
                     <img src="img/google+.png" alt="" class="header__navigation__icons__items">
@@ -433,5 +443,6 @@
             </ul>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
