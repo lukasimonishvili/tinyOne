@@ -9,4 +9,4 @@ gulp.task("sass", function(){
 
 gulp.task("watch", function(){
     gulp.watch("./public/css/*.scss", gulp.series("sass"));
-})
+});
