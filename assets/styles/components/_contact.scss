@@ -1,0 +1,93 @@
+.contact {
+    width: 100%;
+    background-color: $contentBackground;
+    padding-bottom: 75px;
+
+    &__heading{
+        font-size: 32px;
+        color: #010101;
+        font-family: $SourceSansProBold;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    &__under-heading {
+        text-align: center;
+        color: #898989;
+        font-family: $SourceSansProRegular;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    &__info-list {
+        width: 600px;
+        margin: 0 auto;
+        margin-bottom: 43px;
+
+        &__items{
+            flex-direction: column;
+            height: 80px;
+
+            &__text-box{
+                flex-direction: column;
+                height: 40px;
+
+                &__heading{
+                    font-size: 24px;
+                    font-family: $SourceSansProRegular;
+                    color: #010101;
+                    text-align: center;
+                }
+
+                &__description{
+                    font-size: 14px;
+                    font-family: $SourceSansProRegular;
+                    color: #898989;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    &__form{
+        flex-direction: column;
+        margin: 0 auto;
+        height: 439px;
+        width: 480px;
+
+        &__input{
+            width: 100%;
+            height: 55px;
+            border: 2px solid #000;
+            padding-left: 16px;
+            font-size: 16px;
+            color: #010101;
+            font-family: $SourceSansProRegular;
+        }
+        &__input::placeholder{
+            color: #898989;
+            font-size: 16px;
+            font-family: $SourceSansProRegular;
+        }
+        &__textarea{
+            width: 100%;
+            height: 207px;
+            border: 2px solid #000;
+            padding-left: 16px;
+            font-size: 16px;
+            color: #010101;
+            font-family: $SourceSansProRegular;
+        }
+        &__textarea::placeholder{
+            color: #898989;
+            font-size: 16px;
+            font-family: $SourceSansProRegular;
+        }
+        &__submit{
+            background-color: #000;
+            color: #fff;
+            font-size: 16px;
+            font-family: $SourceSansProBold;
+            padding: 20px 30px;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.features {
+    padding: 115px 0 240px 0;
+    width: 100%;
+    background-color: $contentBackground;
+
+    &__heading {
+        text-align: center;
+        color: #010101;
+        font-size: 32px;
+        font-family: $SourceSansProBold;
+        padding-bottom: 20px;
+    }
+    &__under-heading {
+        text-align: center;
+        color: #898989;
+        font-family: $SourceSansProRegular;
+        font-size: 20px;
+    }
+    &__articles {
+        flex-wrap: wrap;
+
+        &__items {
+            margin-top: 90px;
+            align-items: flex-start;
+
+            &__img {
+                margin-right: 35px;
+            }
+            &__heading {
+                color: #010101;
+                font-size: 22px;
+                font-family: $SourceSansProBold;
+            }
+            &__description {
+                font-size: 16px;
+                font-family: $SourceSansProRegular;
+                color: #898989;
+                margin-top: 15px;
+            }
+        }
+    }
+}
