@@ -512,3 +512,51 @@ input, textarea, button {
       font-family: "Source Sans Pro Bold";
       padding: 20px 30px;
       cursor: pointer; }
+
+.footer {
+  width: 100%;
+  background-color: #010101;
+  padding: 95px 0 280px 0; }
+  .footer__heading {
+    font-size: 32px;
+    color: #fff;
+    font-family: "Source Sans Pro Bold";
+    text-align: center;
+    margin-bottom: 24px; }
+  .footer__under-heading {
+    text-align: center;
+    color: #898989;
+    font-family: "Source Sans Pro Regular";
+    font-size: 20px;
+    margin-bottom: 40px; }
+  .footer__form {
+    margin: 0 auto;
+    width: 738px;
+    height: 51px;
+    margin-bottom: 115px; }
+    .footer__form__input {
+      padding-left: 24px;
+      width: 597px;
+      height: 100%;
+      font-size: 16px;
+      color: #010101;
+      font-family: "Source Sans Pro Regular"; }
+    .footer__form__input::placeholder {
+      color: #898989;
+      font-size: 16px;
+      font-family: "Source Sans Pro Regular"; }
+    .footer__form__submit {
+      background-color: #fff;
+      padding: 0 41px;
+      height: 100%;
+      font-size: 16px;
+      font-family: "Source Sans Pro Bold";
+      color: #010101;
+      cursor: pointer; }
+  .footer__navigation {
+    align-items: flex-start; }
+    .footer__navigation__items {
+      font-size: 16px;
+      font-family: "Source Sans Pro Regular";
+      color: #fff;
+      line-height: 20px; }
