@@ -560,3 +560,6 @@ input, textarea, button {
       font-family: "Source Sans Pro Regular";
       color: #fff;
       line-height: 20px; }
+      #root{
+        width: 100%;
+    }
